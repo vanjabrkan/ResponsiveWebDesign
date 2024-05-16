@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!--  so the browser knows what type of document it's reading. -->
+<html lang="en"> <!--This will assist screen readers in identifying the language of the page.-->
+  <head>
+    <!--  meta element - it is used to specify information about the page,
+       such as the title, description, keywords, and author. -->
+    <meta charset="utf-8" /> <!-- The charset attribute specifies the character encoding of the page, and,
+      nowadays, UTF-8 is the only encoding supported by most browsers.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <!--   viewport definition tells the browser how to render the page.
+       Including one betters visual accessibility on mobile, and improves SEO (search engine optimization). -->
+    <title>Cafe Menu</title> <!-- the title element is useful for screen readers to understand the content of a page.
+    Furthermore, it is an important part of SEO.-->
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
+</html>
