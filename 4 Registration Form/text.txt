@@ -1,0 +1,1 @@
+To make them appear on separate lines, add display: block
